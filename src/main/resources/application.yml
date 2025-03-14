@@ -3,9 +3,9 @@ spring:
     name: Redis-Demo
 
   datasource:
-    url: jdbc:mysql://localhost:3306/radisdemo
-    username: root
-    password: Hari@Sql18
+    url: jdbc:mysql://localhost:3306/yourdbname
+    username: your_username
+    password: your_password
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
