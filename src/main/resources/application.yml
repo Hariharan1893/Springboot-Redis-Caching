@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: Redis-Demo
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/radisdemo
+    username: root
+    password: Hari@Sql18
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  redis:
+    host: localhost
+    port: 6379
+
+  cache:
+    type: redis
+
+server:
+  port: 8080
